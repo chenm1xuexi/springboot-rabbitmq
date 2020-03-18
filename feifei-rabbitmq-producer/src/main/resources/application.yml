@@ -1,0 +1,13 @@
+server:
+  port: 10001
+
+spring:
+  application:
+    name: feifei-rabbitmq-producer
+  ### 配置rabbitmq  15672 => rabbitmq图形化界面 5671，5672 AMQP协议的通信端口
+  rabbitmq:
+    addresses: 127.0.0.1
+    port: 5672
+    username: feifei
+    password: feifei
+    virtual-host: feifei_vhosts
